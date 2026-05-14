@@ -1,4 +1,4 @@
-#  Rust Programlama Dili — BLM0238 Dönem Ödevi
+#  Rust Programlama Dili Dönem Ödevi
 
 <div align="center">
 
