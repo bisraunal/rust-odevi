@@ -7,7 +7,7 @@
 ![BTU](https://img.shields.io/badge/BTÜ-BLM0238-2B3A8C?style=for-the-badge)
 
 **Bursa Teknik Üniversitesi · Bilgisayar Mühendisliği**  
-**BLM0238 Programlama Dilleri · 2025–2026 Bahar**
+** Programlama Dilleri · 2025–2026 Bahar**
 
 *Büşra Ünal — 22360859084*
 
@@ -344,5 +344,5 @@ cargo run -p adt-generik
 ---
 
 <div align="center">
-<sub>Bursa Teknik Üniversitesi · BLM0238 Programlama Dilleri · 2025–2026 Bahar · Büşra Ünal</sub>
+<sub>Bursa Teknik Üniversitesi · Programlama Dilleri · 2025–2026 Bahar · Büşra Ünal</sub>
 </div>
