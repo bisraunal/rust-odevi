@@ -4,7 +4,7 @@
 
 ![Rust](https://img.shields.io/badge/Rust-1.78+-B7410E?style=for-the-badge&logo=rust&logoColor=white)
 ![License](https://img.shields.io/badge/Lisans-MIT-1C2D6B?style=for-the-badge)
-![BTU](https://img.shields.io/badge/BTÜ-BLM0238-2B3A8C?style=for-the-badge)
+
 
 **Bursa Teknik Üniversitesi · Bilgisayar Mühendisliği**  
 
