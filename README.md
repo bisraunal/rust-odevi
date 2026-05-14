@@ -9,7 +9,6 @@
 **Bursa Teknik Üniversitesi · Bilgisayar Mühendisliği**  
 
 
-*Büşra Ünal — 22360859084*
 
 </div>
 
