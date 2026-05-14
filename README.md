@@ -7,7 +7,7 @@
 ![BTU](https://img.shields.io/badge/BTÜ-BLM0238-2B3A8C?style=for-the-badge)
 
 **Bursa Teknik Üniversitesi · Bilgisayar Mühendisliği**  
-** Programlama Dilleri · 2025–2026 Bahar**
+
 
 *Büşra Ünal — 22360859084*
 
