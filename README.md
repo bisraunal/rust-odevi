@@ -48,7 +48,7 @@ Rust geleneksel anlamda bir OOP dili değildir; `class` anahtar kelimesi yoktur 
 | Veri yapısı | `class` | `struct` |
 | Metot tanımlama | sınıf içinde | `impl YapıAdı` bloğu |
 | Arayüz / sözleşme | `interface` / saf sanal | `trait` |
-| Kalıtım | `extends` | ❌ yok → kompozisyon |
+| Kalıtım | `extends` | yok → kompozisyon |
 | Polimorfizm | sanal fonksiyon | `dyn Trait` (vtable) |
 
 ```rust
