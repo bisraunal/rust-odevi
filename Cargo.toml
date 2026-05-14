@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "ornekler/01_oop",
+    "ornekler/02_paralellik",
+    "ornekler/03_fonksiyonel",
+    "ornekler/04_bellek",
+    "ornekler/05_ayirt_edici",
+    "ornekler/06_sozdizim",
+    "ornekler/07_adt_generik",
+]
+resolver = "2"
