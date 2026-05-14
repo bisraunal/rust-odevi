@@ -1,4 +1,4 @@
-# 🦀 Rust Programlama Dili — BLM0238 Dönem Ödevi
+#  Rust Programlama Dili — BLM0238 Dönem Ödevi
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 📑 İçindekiler
+##  İçindekiler
 
 | # | Konu | Klasör |
 |---|------|--------|
@@ -106,7 +106,7 @@ thread::spawn(move || { tx.send(42).unwrap(); });
 println!("{}", rx.recv().unwrap()); // 42
 ```
 
-> 📁 Tam örnek: [`ornekler/02_paralellik/src/main.rs`](ornekler/02_paralellik/src/main.rs)
+>  Tam örnek: [`ornekler/02_paralellik/src/main.rs`](ornekler/02_paralellik/src/main.rs)
 
 ---
 
@@ -140,7 +140,7 @@ fn parse(s: &str) -> Result<i32, _> { s.parse() }
 let r = parse("42").map(|n| n * 2).unwrap_or(0); // 84
 ```
 
-> 📁 Tam örnek: [`ornekler/03_fonksiyonel/src/main.rs`](ornekler/03_fonksiyonel/src/main.rs)
+>  Tam örnek: [`ornekler/03_fonksiyonel/src/main.rs`](ornekler/03_fonksiyonel/src/main.rs)
 
 ---
 
@@ -161,14 +161,14 @@ Rust'ın bellek yönetimi **ownership (sahiplik)** sistemi üzerine kuruludur; h
 // 1) Move semantiği: sahiplik s2'ye geçer
 let s1 = String::from("merhaba");
 let s2 = s1;
-// println!("{}", s1); // ❌ DERLEME HATASI — s1 artık geçersiz
+// println!("{}", s1); //  DERLEME HATASI — s1 artık geçersiz
 
 // 2) Immutable borrow: birden fazla olabilir
 let s3 = String::from("dünya");
 let r1 = &s3;
 let r2 = &s3;
 println!("{} {}", r1, r2); // ✅ OK
-// let r3 = &mut s3; // ❌ r1/r2 aktifken mutable borrow HATASI
+// let r3 = &mut s3; //  r1/r2 aktifken mutable borrow HATASI
 
 // 3) Lifetime anotasyonu
 fn en_uzun<'a>(x: &'a str, y: &'a str) -> &'a str {
@@ -177,7 +177,7 @@ fn en_uzun<'a>(x: &'a str, y: &'a str) -> &'a str {
 // 'a: x ve y en az 'a kadar yaşamalı
 ```
 
-> 📁 Tam örnek: [`ornekler/04_bellek/src/main.rs`](ornekler/04_bellek/src/main.rs)
+> Tam örnek: [`ornekler/04_bellek/src/main.rs`](ornekler/04_bellek/src/main.rs)
 
 ---
 
@@ -189,9 +189,9 @@ Rust'ı rakiplerinden benzersiz kılan özellik **GC olmaksızın bellek güvenl
 ┌──────────────┬──────────────────┬────────────────────┐
 │ Dil          │ Bellek Yönetimi  │ Güvenlik Garantisi │
 ├──────────────┼──────────────────┼────────────────────┤
-│ C / C++      │ Elle (manual)    │ ❌ Yok              │
-│ Java / Go    │ GC (otomatik)    │ ✅ Var (runtime)    │
-│ Rust         │ Ownership        │ ✅ Var (derleme)    │
+│ C / C++      │ Elle (manual)    │  Yok              │
+│ Java / Go    │ GC (otomatik)    │ Var (runtime)    │
+│ Rust         │ Ownership        │ Var (derleme)    │
 └──────────────┴──────────────────┴────────────────────┘
 ```
 
@@ -213,7 +213,7 @@ let s = unsafe { abs(-7) }; // 7
 ```
 
 > `unsafe` ≠ güvensiz; doğruluğun sorumluluğu derleyiciden programcıya geçer.  
-> 📁 Tam örnek: [`ornekler/05_ayirt_edici/src/main.rs`](ornekler/05_ayirt_edici/src/main.rs)
+>  Tam örnek: [`ornekler/05_ayirt_edici/src/main.rs`](ornekler/05_ayirt_edici/src/main.rs)
 
 ---
 
@@ -253,7 +253,7 @@ while let Some(üst) = yığın.pop() {
 }
 ```
 
-> 📁 Tam örnek: [`ornekler/06_sozdizim/src/main.rs`](ornekler/06_sozdizim/src/main.rs)
+>  Tam örnek: [`ornekler/06_sozdizim/src/main.rs`](ornekler/06_sozdizim/src/main.rs)
 
 ---
 
@@ -300,11 +300,11 @@ where T: PartialOrd {
 | `HashMap<K, V>` | Anahtar-değer eşlemi |
 | `Box<T>` | Heap'te yaşayan akıllı işaretçi |
 
-> 📁 Tam örnek: [`ornekler/07_adt_generik/src/main.rs`](ornekler/07_adt_generik/src/main.rs)
+>  Tam örnek: [`ornekler/07_adt_generik/src/main.rs`](ornekler/07_adt_generik/src/main.rs)
 
 ---
 
-## 🚀 Örnekleri Çalıştırma
+##  Örnekleri Çalıştırma
 
 Rust kurulu değilse önce yükleyin:
 
@@ -333,13 +333,13 @@ cargo run -p adt-generik
 
 ---
 
-## 📚 Kaynaklar
+##  Kaynaklar
 
-- 📖 [The Rust Programming Language](https://doc.rust-lang.org/book/) — Resmi kitap
-- 📖 [Rustonomicon](https://doc.rust-lang.org/nomicon/) — unsafe Rust
-- 📖 [Rust Reference](https://doc.rust-lang.org/reference/) — Dil referansı
-- 📖 Programming Rust — Jim Blandy, O'Reilly (2021)
-- 📖 [Rust RFC Book](https://rust-lang.github.io/rfcs/)
+-  [The Rust Programming Language](https://doc.rust-lang.org/book/) — Resmi kitap
+-  [Rustonomicon](https://doc.rust-lang.org/nomicon/) — unsafe Rust
+-  [Rust Reference](https://doc.rust-lang.org/reference/) — Dil referansı
+-  Programming Rust — Jim Blandy, O'Reilly (2021)
+-  [Rust RFC Book](https://rust-lang.github.io/rfcs/)
 
 ---
 
