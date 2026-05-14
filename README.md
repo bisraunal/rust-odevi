@@ -70,7 +70,7 @@ fn hayvan_sesi(h: &dyn Ses) { h.tanitim(); }
 // dyn Ses → vtable aracılığıyla çalışma-zamanı dispatch
 ```
 
-> 📁 Tam örnek: [`ornekler/01_oop/src/main.rs`](ornekler/01_oop/src/main.rs)
+>  Tam örnek: [`ornekler/01_oop/src/main.rs`](ornekler/01_oop/src/main.rs)
 
 ---
 
@@ -167,7 +167,7 @@ let s2 = s1;
 let s3 = String::from("dünya");
 let r1 = &s3;
 let r2 = &s3;
-println!("{} {}", r1, r2); // ✅ OK
+println!("{} {}", r1, r2); //  OK
 // let r3 = &mut s3; //  r1/r2 aktifken mutable borrow HATASI
 
 // 3) Lifetime anotasyonu
