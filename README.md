@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/Lisans-MIT-1C2D6B?style=for-the-badge)
 
 
-**Bursa Teknik Üniversitesi · Bilgisayar Mühendisliği**  
+ **Bursa Teknik Üniversitesi · Bilgisayar Mühendisliği**  
 
 
 
