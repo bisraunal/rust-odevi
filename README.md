@@ -35,7 +35,7 @@ Rust, Mozilla Araştırma tarafından 2010 yılında tasarlanmaya başlanan ve 2
 
 Geleneksel yaklaşımlar ya Garbage Collector (GC) kullanır ya da programcının elle bellek yönetmesini gerektirir. Rust bu ikilemden tamamen farklı bir yol izler: derleme zamanında **sahiplik (ownership)** ve **ödünç alma (borrowing)** kurallarını uygulayarak tüm bellek hatalarını önceden tespit eder. Bu sayede GC yükü olmaksızın, **sıfır maliyetli soyutlama (zero-cost abstraction)** prensibi korunarak güvenli kod yazılabilmektedir.
 
- > 🏆 2022–2024 yılları arasında Stack Overflow Geliştirici Anketi'nde üst üste **"En Çok Sevilen Dil"** seçilmiştir.
+  > 🏆 2022–2024 yılları arasında Stack Overflow Geliştirici Anketi'nde üst üste **"En Çok Sevilen Dil"** seçilmiştir.
 
 ---
 
